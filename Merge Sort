@@ -16,9 +16,9 @@ void merge(int arr[], int left, int middle, int right) {
         Right[j] = arr[middle + 1 + j];
 
     
-    i = 0; // Initial index of first subarray
-    j = 0; // Initial index of second subarray
-    k = left; // Initial index of merged subarray
+    i = 0; 
+    j = 0; 
+    k = left;
 
     while (i < n1 && j < n2) {
         if (Left[i] <= Right[j]) {
